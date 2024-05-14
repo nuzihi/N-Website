@@ -829,6 +829,13 @@ section {
     display: block;
     font-size: 2rem;
   }
+  .back-2-top{
+    display: block;
+    align-items: center;
+    font-size: medium;
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 450px) {
