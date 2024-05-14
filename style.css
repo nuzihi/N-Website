@@ -39,7 +39,7 @@ section {
   padding-bottom: 2rem;
   text-align: center;
   font-size: 2.5rem;
-  color: rgb(236, 229, 229);
+  color: rgb(14, 49, 4);
   text-transform: capitalize;
 }
 
@@ -740,7 +740,7 @@ section {
   color: black;
 }
 
-/* Symon Added code */
+
 
 .logo-txt {
   font-family: "celandine", sans-serif;
