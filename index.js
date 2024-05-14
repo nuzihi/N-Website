@@ -50,7 +50,7 @@ document.querySelector(".home").onmouseleave = (e) => {
   });
 };
 
-var swiper = new Swiper(".bikes-slider", {
+var swiper = new Swiper(".testimonials-slider", {
   grabCursor: true,
   centeredSlides: true,
   spaceBetween: 20,
@@ -102,7 +102,7 @@ var swiper = new Swiper(".featured-slider", {
   },
 });
 
-var swiper = new Swiper(".review-slider", {
+var swiper = new Swiper(".testimonials-slider", {
   grabCursor: true,
   centeredSlides: true,
   spaceBetween: 20,
@@ -128,7 +128,7 @@ var swiper = new Swiper(".review-slider", {
   },
 });
 
-var swiper = new Swiper(".bikestorent-slider", {
+var swiper = new Swiper(".testimonials-slider", {
   grabCursor: true,
   centeredSlides: true,
   spaceBetween: 20,

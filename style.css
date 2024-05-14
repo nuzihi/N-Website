@@ -26,9 +26,15 @@ html {
   scroll-behavior: smooth;
 }
 
+
 .body-text {
   text-transform: none;
+  font-size: 2rem;
+}
+.ptn-body-text {
+  text-transform: none;
   font-size: 1.5rem;
+  color: #34770a;
 }
 
 section {
@@ -118,6 +124,7 @@ section {
 
 .header .navbar a:hover {
   color: rgb(252, 29, 204);
+  
 
 }
 
@@ -591,19 +598,19 @@ section {
   background: var(--var(--nuzihi-green));
 }
 
-.reviews .body-text {
+.testimonials .body-text {
   text-align: center;
 }
 
-.reviews .body-text {
+.testimonials .body-text {
   text-align: center;
 }
 
-.reviews .review-slider {
+.testimonials .testimonials-slider {
   padding-bottom: 3rem;
 }
 
-.reviews .review-slider .box {
+.testimonials .testimonials-slider .box {
   text-align: center;
   padding: 2rem;
   margin: 2rem 0;
@@ -611,7 +618,7 @@ section {
   transform: scale(0.9);
 }
 
-.reviews .review-slider .swiper-slide-active {
+.testimonials .testimonials-slider .swiper-slide-active {
   opacity: 1;
   transform: scale(1);
   box-shadow: var(--box-shadow);
@@ -619,26 +626,26 @@ section {
   border-radius: 0.5rem;
 }
 
-.reviews .review-slider .box img {
+.testimonials .testimonials-slider .box img {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.reviews .review-slider .box .content p {
+.testimonials .testimonials-slider .box .content p {
   color: var(--light-color);
   font-size: 1.4rem;
   padding: 1rem 0;
 }
 
-.reviews .review-slider .box .content h3 {
+.testimonials .testimonials-slider .box .content h3 {
   color: var(--black);
   font-size: 2.2rem;
   padding-bottom: 0.5rem;
 }
 
-.reviews .review-slider .box .content .stars i {
+.testimonials .testimonials-slider .box .content .stars i {
   color: var(--var(--nuzihi-green));
   font-size: 1.7rem;
   color: var(--nuzihi-green);
@@ -724,7 +731,7 @@ section {
     color: rgb(254, 249, 249);
   }
 
-.footer .box-container .box a:hover i {
+.footer .box-container .box a:hover  {
   padding-right: 2rem;
   color: #eee;
   font-size: larger;
